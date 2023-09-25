@@ -43,7 +43,7 @@ How close can we get our guitar tone to a given recording?
 * [RTNeural](https://github.com/jatinchowdhury18/RTNeural): A lightweight neural network inferencing engine written in C++. This library was designed with the intention of being used in real-time systems, specifically real-time audio processing.
 * [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 * [Librosa](https://librosa.org/) Audio and music processing in Python.
-    * [Dynamic Time Warping](https://librosa.org/librosa_gallery/auto_examples/plot_music_sync.html) Align two audio signals in time domain (does it actually modify one or only identify corresponding samples?). Example plot doesn't look very good!
+    * [Dynamic Time Warping](https://librosa.org/librosa_gallery/auto_examples/plot_music_sync.html) Align two audio signals in time domain (does it actually modify one or only identify corresponding samples?). Example plot doesn't look very good! Expect much is lost by extracting chroma features. Try instead warping one of the signals and measuring similarity (cross-correlation?) with target, search that way.
 
 ### JS Rocks
 
@@ -71,9 +71,16 @@ NeuralPi is a guitar pedal using neural networks to emulate real amps and pedals
 
 * [Compressing and regularizing deep neural networks](https://www.oreilly.com/content/compressing-and-regularizing-deep-neural-networks/)
 
+### Psychoacoustic Loss Functions for Neural Audio Coding
+
+* [Abstract](https://saige.sice.indiana.edu/research-projects/pam-nac/#:~:text=The%20loss%20between%20the%20two,subjective%20and%20difficult%20to%20quantify.)
+* [GitHub repo](https://github.com/cocosci/pam-nac)
+
 ### Pedal PI
 
 Raspberry Pi Zero based guitar pedal with real-time effects written in C.
+
+Sadly it looks like it is out of stock and the site has been down for some years!
 
 * [Pedal PI article](https://www.electrosmash.com/pedal-pi)
 * [Pedal PI kit](https://www.electrosmash.com/shop/product/pedal-pi-kit/)
