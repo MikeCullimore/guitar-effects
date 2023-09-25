@@ -42,6 +42,8 @@ How close can we get our guitar tone to a given recording?
 
 * [RTNeural](https://github.com/jatinchowdhury18/RTNeural): A lightweight neural network inferencing engine written in C++. This library was designed with the intention of being used in real-time systems, specifically real-time audio processing.
 * [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+* [Librosa](https://librosa.org/) Audio and music processing in Python.
+    * [Dynamic Time Warping](https://librosa.org/librosa_gallery/auto_examples/plot_music_sync.html) Align two audio signals in time domain (does it actually modify one or only identify corresponding samples?). Example plot doesn't look very good!
 
 ### JS Rocks
 
